@@ -257,7 +257,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 7548:
+/***/ 5287:
 /***/ ((module, exports, __webpack_require__) => {
 
 
@@ -8031,7 +8031,7 @@ Object.defineProperty(exports, "resolveHandlerError", ({
     }
 }));
 const _notfound = __webpack_require__(2241);
-const _redirect = __webpack_require__(7548);
+const _redirect = __webpack_require__(5287);
 const _responsehandlers = __webpack_require__(1332);
 function resolveHandlerError(err) {
     if ((0, _redirect.isRedirectError)(err)) {
@@ -10846,7 +10846,7 @@ function addPathPrefix(path, prefix) {
 
 /***/ }),
 
-/***/ 6660:
+/***/ 8225:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -10911,7 +10911,7 @@ Object.defineProperty(exports, "formatNextPathnameInfo", ({
 }));
 const _removetrailingslash = __webpack_require__(5105);
 const _addpathprefix = __webpack_require__(2595);
-const _addpathsuffix = __webpack_require__(6660);
+const _addpathsuffix = __webpack_require__(8225);
 const _addlocale = __webpack_require__(8625);
 function formatNextPathnameInfo(info) {
     let pathname = (0, _addlocale.addLocale)(info.pathname, info.locale, info.buildId ? undefined : info.defaultLocale, info.ignorePrefix);
