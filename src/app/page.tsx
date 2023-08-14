@@ -7,9 +7,9 @@ import Row from 'react-bootstrap/Row';
 export default function Home() {
   return (
     <>
-    <div className="my-4 m-[0px] px-[0px] align-center container">
+    <picture className="my-4 m-[0px] px-[0px] align-center container">
       <img className="w-full h-auto" src="/images/img_1.png" alt="" />
-    </div>
+    </picture>
     <div className="container">
     <div className="m-4">
     <h2 className="text-center font-bold leading-[48px]">Discover NEW Arrivals</h2>
